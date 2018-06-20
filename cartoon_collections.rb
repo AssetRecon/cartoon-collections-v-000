@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-if array.find { |x| x.length > 4 }.class = String
+if array.find { |x| x.length > 4 }.class == String
     true
   else
     false
