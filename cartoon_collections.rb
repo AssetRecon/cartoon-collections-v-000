@@ -17,6 +17,7 @@ array.each do |x|
     return true
   else
     return false
+  end
 end
 end
 
