@@ -12,9 +12,11 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-array.find do |x|
-  x.length > 4
-end
+if array.find { |x| x.length > 4 }.class = String
+    true
+  else
+    false
+  end
 end
 
 def find_the_cheese# code an argument here
